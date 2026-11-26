@@ -4,7 +4,8 @@ namespace Qase.Framework.Core.Drivers;
 
 public static class DriverManager
 {
-    [ThreadStatic] private static IWebDriver? _driver;
+    [ThreadStatic] 
+    private static IWebDriver? _driver;
     public static int TimeoutSeconds { get; set; } = 10;
 
     public static IWebDriver Driver => _driver ?? throw new InvalidOperationException(

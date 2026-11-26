@@ -45,31 +45,26 @@ public class BasePage
     
     protected void Click(By locator)
     {
-        try
+        var element = Wait.Until(driver =>
         {
-            Wait.Until(driver =>
+            var elements = driver.FindElements(locator);
+
+            foreach (var item in elements)
             {
-                var elements = driver.FindElements(locator);
+                if (item.Displayed && item.Enabled)
+                    return item;
+            }
 
-                foreach (var element in elements)
-                {
-                    if (element.Displayed && element.Enabled)
-                    {
-                        element.Click();
-                        return true;
-                    }
-                }
+            return null;
+        });
 
-                return false;
-            });
-        }
-        catch (WebDriverTimeoutException ex)
-        {
-            throw;
-        }
-        catch (WebDriverException ex)
-        {
-            throw;
-        }
+        element.Click();
+    }
+    
+    protected void Type(By locator, string text)
+    {
+        var element = FindVisibleElement(locator);
+        element.Clear();
+        element.SendKeys(text);
     }
 }

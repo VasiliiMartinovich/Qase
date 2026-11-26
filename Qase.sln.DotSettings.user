@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=88b9b52a_002D8cb3_002D4e7b_002D9ff5_002D1d169ebe4240/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from LoginPageTests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;205D8A6D-F0FF-4153-98EA-11A7AC31DE5D/d:UI/d:Authentication/f:LoginPageTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::205D8A6D-F0FF-4153-98EA-11A7AC31DE5D::net10.0::Qase.Tests.ResetPasswordTests.SuccessLogin&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::205D8A6D-F0FF-4153-98EA-11A7AC31DE5D::net10.0::Qase.Tests.UI.Projects.CreateProjectTests.CreateProject&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;205D8A6D-F0FF-4153-98EA-11A7AC31DE5D/d:UI/d:Authentication/f:ResetPasswordTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;205D8A6D-F0FF-4153-98EA-11A7AC31DE5D/d:UI/d:Projects/f:ProjectsPageTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;205D8A6D-F0FF-4153-98EA-11A7AC31DE5D/d:UI/d:Projects/f:CreateProjectTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
